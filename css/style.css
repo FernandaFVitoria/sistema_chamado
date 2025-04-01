@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    body{
+        background-color: #e881f1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;     
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+        width: 550px;
+        height: 230px;
+        background-color: #cd5fd1;
+        padding: 30px;
+    
+    }
+    
+    label{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-sarif;
+        font-size: 28px;
+    }
+    
+    input{
+        width: 100%;
+        height: 100px;
+        background-color: aliceblue;
+        font-size: 15px;
+        padding: 5px;
+        border-radius: 10px;
+    }
+    button{
+        background-color: #cc1c89;
+        width: 150px;
+        height: 80px;
+        font-size: 20px;
+        color: aliceblue;
+        border-radius: 20px;
+    }
+    
+    .botao{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
